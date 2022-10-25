@@ -9,6 +9,7 @@ main {
 }
 
 aside {
+    margin-top: 10px;
     float: left;
     width: 30%;
     color: aliceblue;
@@ -18,7 +19,7 @@ aside {
 article {
     width: 70%;
     float: right;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 header {
@@ -43,12 +44,13 @@ footer {
 
 nav {
     background-color: rgb(240, 213, 59);
-    margin-top: none;
     padding: 10%;
 }
 
 .prof-pic {
-    width: 100%;
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 25%;
 }
 
 a {
@@ -61,4 +63,28 @@ a:hover {
 
 .menu-list {
     list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+.menu-item {
+    font-weight: 700;
+}
+
+.interest-list {
+    list-style-type: none;
+}
+
+.list-item {
+    padding: 10px;
+}
+
+.contact-images {
+    width: 8%;
+    padding: 2%;
+}
+
+.footer-header {
+    font-size: 30px;
 }
