@@ -1,3 +1,6 @@
+* {
+    scroll-behavior: smooth;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -9,52 +12,52 @@ main {
 }
 
 aside {
-    margin-top: 10px;
     float: left;
     width: 30%;
     color: aliceblue;
-
+    background-color: rgb(201, 190, 131);
 }
 
 article {
     width: 70%;
     float: right;
-    margin-left: 2%;
+    background-color: rgb(255, 246, 234);
 }
 
 header {
     text-align: center;
-    background-color: rgb(240, 213, 59);
+    background-color: rgb(226, 221, 190);
     padding: 15px;
     color: aliceblue;
+    color: black;
 }
 
 footer {
     display: block;
     clear: both;
-    background-color: rgb(240, 213, 59);
+    background-color: rgb(226, 221, 190);
     text-align: center;
-    color: aliceblue;
-    padding: 15px;
+    color:black;
+    padding: 10px;
 }
 
-.timeHeader{
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 
 nav {
-    background-color: rgb(240, 213, 59);
+
     padding: 10%;
 }
 
 .prof-pic {
     width: 50%;
     border-radius: 50%;
+    margin-top: 15px;
     margin-left: 25%;
 }
 
 a {
     text-decoration: none;
+    color: aliceblue;
 }
 
 a:hover {
@@ -81,10 +84,49 @@ a:hover {
 }
 
 .contact-images {
-    width: 8%;
+    width: 5%;
     padding: 2%;
 }
 
 .footer-header {
     font-size: 30px;
+    margin: 0;
+}
+
+.interests_and_skills {
+    display: flex;
+}
+
+.interests {
+    justify-content: flex-start;
+    width: 45%;
+    margin-left: 2%;
+}
+
+.skills {
+    justify-content:flex-end;
+    width: 50%;
+}
+
+.main-content {
+    margin-left: 2%;
+}
+
+.dateDescription {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.timeHeader {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: flex-start;
+    width: 20%
+}
+
+.description {
+    justify-content: flex-end;
+    width: 60%;
+    margin: 0;
+    list-style-type: none;
 }
