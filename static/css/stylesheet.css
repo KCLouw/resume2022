@@ -12,7 +12,6 @@ main {
 }
 
 aside {
-    justify-content: flex-start;
     width: 30%;
     color: aliceblue;
     background-color: rgb(201, 190, 131);
@@ -41,13 +40,6 @@ footer {
     padding: 10px;
 }
 
-
-
-nav {
-
-    padding: 10%;
-}
-
 .prof-pic {
     width: 50%;
     border-radius: 50%;
@@ -64,11 +56,21 @@ a:hover {
     color: black;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+
 .menu-list {
+    flex-direction: column;
     list-style-type: none;
     padding: 10px;
     text-align: center;
     font-size: larger;
+    
 }
 
 .menu-item {
@@ -77,11 +79,14 @@ a:hover {
 
 .interest-list {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .list-item {
     padding: 10px;
 }
+
 
 .contact-images {
     width: 5%;
@@ -95,16 +100,15 @@ a:hover {
 
 .interests_and_skills {
     display: flex;
+    justify-content: space-between;
 }
 
 .interests {
-    justify-content: flex-start;
     width: 45%;
     margin-left: 2%;
 }
 
 .skills {
-    justify-content:flex-end;
     width: 50%;
 }
 
