@@ -137,3 +137,61 @@ nav {
     margin: 0;
     list-style-type: none;
 }
+
+@media screen and (max-width: 850px){
+    .dateDescription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #experience, #interests, #education, #about-me {
+       text-align: center;
+    }
+
+    .interests_and_skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #skills {
+        margin-left: 5rem;
+    }
+
+    .skills {
+        margin-left: 3rem;
+    }
+
+    .main-content {
+        margin-right: 1rem;
+    }
+
+    .my-description {
+        text-align: center;
+    }
+
+    .timeHeader {
+        margin-bottom: 1rem;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    #skills {
+        margin-left: 6rem;
+    }
+}
