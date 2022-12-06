@@ -138,6 +138,11 @@ nav {
     list-style-type: none;
 }
 
+.skill-img {
+    height: 200px;
+    width: 200px;
+}
+
 @media screen and (max-width: 850px){
     .dateDescription {
         display: flex;
