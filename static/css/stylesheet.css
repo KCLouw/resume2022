@@ -12,6 +12,11 @@ main {
     width: 100%;
 }
 
+.pic {
+    background: url(/images/design.jpg);
+    margin-top: 0;
+}
+
 aside {
     width: 30%;
     color: aliceblue;
@@ -43,10 +48,10 @@ footer {
 }
 
 .prof-pic {
-    width: 50%;
+    width: 30%;
     border-radius: 50%;
     margin-top: 15px;
-    margin-left: 25%;
+    margin-left: 35%;
 }
 
 a {
@@ -161,7 +166,7 @@ nav {
     }
 
     #skills {
-        margin-left: 5rem;
+       margin-right: 10%;
     }
 
     .skills {
@@ -180,6 +185,10 @@ nav {
         margin-bottom: 1rem;
         width: auto;
     }
+
+    .skill-img {
+        margin-right: 2rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -197,6 +206,12 @@ nav {
     }
 
     #skills {
-        margin-left: 6rem;
+        margin-right: 25%;
+    }
+
+    .skill-img {
+        width: 80%;
+        height: 80%;
+        margin-right: 2rem;
     }
 }
