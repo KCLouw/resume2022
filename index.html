@@ -29,8 +29,46 @@
         </div>
 
     </header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interests">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="pic">
+        <picture class="text-center">
+            <source media="(max-width: 600px)" srcset="/images/me-edited-small.jpg">
+            <source media="(max-width: 1000px)" srcset="/images/me-edited-med.jpg">
+            <img src="images/me-edited.jpg" alt="Picture of Kyle Louw" class="prof-pic">
+        </picture>
+    </div>
     <main>
-        <aside>
+        <!--  <aside>
             <div>
                 <picture>
                     <source media="(max-width: 600px)" srcset="/images/me-edited-small.jpg">
@@ -38,6 +76,7 @@
                     <img src="images/me-edited.jpg" alt="Picture of Kyle Louw" class="prof-pic">
                 </picture>
             </div>
+            
             <nav>
                 <ul class="menu-list">
                     <li class="list-item"><a href="#about-me" class="menu-item">About Me</a></li>
@@ -47,36 +86,34 @@
                     <li class="list-item"><a href="#education" class="menu-item">Education</a></li>
                     <li class="list-item"><a href="#contact-me" class="menu-item">Contact Me</a></li>
                 </ul>
-            </nav>
+            </nav> -->
         </aside>
-        <article>
+        <article class="container-fluid">
             <div class="main-content mt-3">
-                <h3 id="about-me">About Me</h3>
-                <p class="my-description">I am an enthusiastic student of coding and programming.
-                    Growing my knowledge of creating beautiful and meanigful websites through coding has
-                    become
-                    a
-                    passion of
-                    mine.
-                    Hopefully soon I can fulfill my dream of taking up employment in this field and show my
-                    work
-                    to
-                    the
-                    world.
-                </p>
+                <div class="jumbotron">
+                    <h1 class="display-5 text-center">This is me!</h1>
+                    <p class="lead text-center" id="about-me">I am an enthusiastic student of coding and programming.
+                        Growing my knowledge of creating beautiful and meanigful websites through coding has become a
+                        passion of mine.
+                        Hopefully soon I can fulfill my dream of taking up employment in this field and show my work to
+                        the world.</p>
+                    <hr class="my-4">
+                    <p class="text-center display-6">Jump right in and have a look at what I have on offer.</p>
+                    <hr class="my-4">
+                </div>
             </div>
-            <div class="interests_and_skills">
+            <div class="interests_and_skills text-center">
                 <div class="interests">
                     <h3 id="interests">Interests</h3>
                     <ul class="list-unstyled">
                         <li>Sports:
-                            <ol class="interest-list">
-                                <li>Football(Soccer)</li>
-                                <li>Rugby</li>
-                                <li>Cricket</li>
-                                <li>Formula 1</li>
-                                <li>NFL</li>
-                            </ol>
+
+                        <li>Football(Soccer)</li>
+                        <li>Rugby</li>
+                        <li>Cricket</li>
+                        <li>Formula 1</li>
+                        <li>NFL</li>
+
                         </li>
                         <li>Gaming</li>
                         <li>Movies and Series</li>
@@ -88,7 +125,7 @@
                 <div class="skills">
                     <h3 id="skills">Skills</h3>
 
-                 <!--   <div class="container my-3">
+                    <!--   <div class="container my-3">
 
                         <div class="row">
                             <div class="col-lg-12 float-end"><img src="images/html5 logo.jpg" alt="HTML5 Logo" class="img-fluid skill-img">
@@ -101,20 +138,20 @@
 
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="images/html5 logo.jpg" class="d-block w-70 skill-img" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/CSS Logo.jpg" class="d-block w-70 skill-img" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/JavaScript Logo.jpg" class="d-block w-70 skill-img" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/python logo.png" class="d-block w-70 skill-img" alt="...">
-                          </div>
+                            <div class="carousel-item active">
+                                <img src="images/html5 logo.jpg" class="w-70 skill-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/CSS Logo.jpg" class="w-70 skill-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/JavaScript Logo.jpg" class="w-70 skill-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/python logo.png" class="w-70 skill-img" alt="...">
+                            </div>
                         </div>
-                      </div>
+                    </div>
 
                 </div>
             </div>
@@ -183,7 +220,8 @@
                         <a href="mailto:klouw07@gmail.com"><img src="images/icons8-email-64.png" alt="Email Contact"
                                 class="img-fluid contact-images"></a>
                         <a href="https://linkedin.com/in/kyle-louw-562737134" target="_blank"><img
-                                src="images/icons8-linkedin-2-30.png" alt="LinkedIn Logo" class="img-fluid contact-images"></a>
+                                src="images/icons8-linkedin-2-30.png" alt="LinkedIn Logo"
+                                class="img-fluid contact-images"></a>
                         <a href="https://github.com/KCLouw" target="_blank"><img src="images/Daco_4644573.png"
                                 alt="GitHub Logo" class="img-fluid contact-images"></a>
                     </div>
